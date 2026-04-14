@@ -15,6 +15,7 @@ data/*.png
 
 # ── Studying / personal notes (not for public repo) ──────────────────────────
 phase1_study.md
+CLAUDE.md
 
 # ── Claude Code internal files ────────────────────────────────────────────────
 .claude/
