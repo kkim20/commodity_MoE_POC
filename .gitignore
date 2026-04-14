@@ -1,0 +1,29 @@
+# ── Virtual environment ───────────────────────────────────────────────────────
+.venv/
+
+# ── Python cache ──────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# ── Data artifacts (raw CSVs, processed/labeled/target parquets, plots) ───────
+data/raw/
+data/*.parquet
+data/*.png
+
+# ── Studying / personal notes (not for public repo) ──────────────────────────
+phase1_study.md
+
+# ── Claude Code internal files ────────────────────────────────────────────────
+.claude/
+
+# ── OS / editor ───────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.egg-info/
+dist/
+build/
