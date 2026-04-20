@@ -14,11 +14,32 @@ data/*.parquet
 data/*.png
 
 # ── Studying / personal notes (not for public repo) ──────────────────────────
-phase1_study.md
+phase*_study.md
 CLAUDE.md
+.gitignore
+
+# ── Learning materials ────────────────────────────────────────────────────────
+*.pdf
+*.docx
+*.pptx
+learning/
+study/
+docs/
 
 # ── Claude Code internal files ────────────────────────────────────────────────
 .claude/
+
+# ── Secrets ───────────────────────────────────────────────────────────────────
+.env
+
+# ── Model checkpoints ─────────────────────────────────────────────────────────
+*.pt
+*.pth
+*.ckpt
+models/checkpoints/
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
 
 # ── OS / editor ───────────────────────────────────────────────────────────────
 .DS_Store
